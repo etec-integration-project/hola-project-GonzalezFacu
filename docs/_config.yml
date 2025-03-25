@@ -1,0 +1,20 @@
+title: HOLA PROJECT Facundo Gonzalez
+description: Documentación del hola project de Facundo Gonzalez y muy poquito Iñaki Gongora, la nai no ayudo solo molesto guacalote
+theme: jekyll-theme-cayman
+
+# Configuración importante para Jekyll
+defaults:
+  -
+    scope:
+      path: "" # aplica a todos los archivos
+    values:
+      layout: default
+
+# Especificar que los archivos .md deben ser procesados
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Configurar la página principal
+index_page: index.md 
